@@ -1,0 +1,83 @@
+/* Body Styles */
+body {
+    font-family: 'Lora', serif;
+    background: url('images/20230928_114113.jpg') no-repeat center center fixed; /* เปลี่ยนเป็นภาพพื้นหลังที่เหมาะสม */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0; /* สีขาวอ่อน */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px; /* เพิ่ม padding เพื่อให้ดูโปร่งขึ้น */
+    background: rgba(20, 20, 20, 0.9); /* สีดำโปร่งใส */
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border: 2px solid #00bfff; /* กรอบสีฟ้า */
+}
+
+/* Profile Picture */
+.profile-picture {
+    width: 180px; /* ขยายขนาดรูปโปรไฟล์ */
+    height: 180px; /* ขยายขนาดรูปโปรไฟล์ */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* เพิ่ม margin ด้านล่างเพื่อให้ดูห่างจากข้อมูล */
+}
+
+/* Profile Details */
+h1 {
+    margin-top: 20px;
+    font-size: 2.5rem; /* ปรับขนาดให้ใหญ่ขึ้น */
+    color: #00bfff; /* สีฟ้าสดใส */
+}
+
+h1 span, p span {
+    font-weight: bold;
+    color: #1ca5e4; /* สีทอง */
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1rem; /* เพิ่มขนาดฟอนต์เพื่อให้ชัดเจนยิ่งขึ้น */
+    color: #f0f0f0; /* สีขาวอ่อน */
+}
+
+/* Links Container */
+.links-container {
+    margin-top: 30px;
+}
+
+.links-container h2 {
+    color: #00bfff; /* สีฟ้าสดใส */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Button Links */
+.btn-link {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #00bfff; /* สีฟ้าสดใส */
+    color: #fff; /* สีขาว */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+    font-size: 1rem; /* เพิ่มขนาดฟอนต์ */
+}
+
+.btn-link:hover {
+    background-color: #0080ff; /* สีฟ้าเข้มเมื่อ hover */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 128, 255, 0.4);
+}
